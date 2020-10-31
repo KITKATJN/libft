@@ -1,33 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memchr.c                                        :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cmarguer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/29 16:13:33 by cmarguer          #+#    #+#             */
-/*   Updated: 2020/10/29 16:51:34 by cmarguer         ###   ########.fr       */
+/*   Created: 2020/10/31 15:17:53 by cmarguer          #+#    #+#             */
+/*   Updated: 2020/10/31 15:27:44 by cmarguer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memchr(const void *s, int c, size_t n)
+char *ft_substr(char const *s, unsigned int start,size_t len)
 {
-	unsigned const char		*str;
-	size_t					i;
-	char					cchar;
 
-	i = 0;
-	cchar = c;
-	str = s;
-	while (i < n)
-	{
-		if (str[i] == cchar)
-		{
-			return ((void*)(str + i));
-		}
-		i++;
-	}
-	return (0);
 }

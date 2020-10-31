@@ -6,14 +6,16 @@
 /*   By: cmarguer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/28 17:09:32 by cmarguer          #+#    #+#             */
-/*   Updated: 2020/10/28 18:45:12 by cmarguer         ###   ########.fr       */
+/*   Updated: 2020/10/31 12:28:00 by cmarguer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_strlcat(char *dst, const char *src, int size)
+#include "libft.h"
+
+size_t		ft_strlcat(char *dst, const char *src, size_t size)
 {
-	int i;
-	int j;
+	size_t i;
+	size_t j;
 
 	i = 0;
 	j = size;

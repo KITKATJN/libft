@@ -6,9 +6,11 @@
 /*   By: cmarguer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 18:09:01 by cmarguer          #+#    #+#             */
-/*   Updated: 2020/10/29 18:21:50 by cmarguer         ###   ########.fr       */
+/*   Updated: 2020/10/31 12:29:41 by cmarguer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memchar1(const void *s, int c, size_t n)
 {

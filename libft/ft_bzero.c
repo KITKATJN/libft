@@ -6,9 +6,11 @@
 /*   By: cmarguer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 11:46:08 by cmarguer          #+#    #+#             */
-/*   Updated: 2020/10/29 12:29:52 by cmarguer         ###   ########.fr       */
+/*   Updated: 2020/10/31 14:22:18 by cmarguer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
