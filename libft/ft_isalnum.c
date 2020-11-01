@@ -1,8 +1,19 @@
 #include "libft.h"
 
+
+
 int	ft_isalnum(int c)
 {
-	if (((c > 64) && (c < 91)) || ((c > 96) && (c < 123)) || ((c >= '0') && (c <= '9')))
-			return (c);
-	return (0);
+	if ((ft_isalpha(c) || ft_isdigit(c)))
+		return (1);
+	return 0;
 }
+/*
+int	ft_isalnum(int c)
+{
+	if (ft_isalpha(c) || ft_isdigit(c))
+	{
+		return (1);
+	}
+	return (0);
+}*/
