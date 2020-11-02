@@ -16,7 +16,8 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	char *buffer;
 
-	buffer = (void*)malloc(count * size);
-	ft_bzero(buffer, size * count);
+	buffer = malloc(count * size);
+	if (buffer)
+		ft_bzero(buffer, size * count);
 	return (buffer);
 }

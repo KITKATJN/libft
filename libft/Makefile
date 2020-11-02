@@ -39,7 +39,6 @@ CC = gcc
 $(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
 	ranlib $(NAME)
-	rm *.o
 
 all: $(NAME) 
 
