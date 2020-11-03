@@ -12,38 +12,6 @@
 
 #include "libft.h"
 
-void	*ft_memchar(const void *s, int c, size_t n)
-{
-	unsigned const char		*str;
-	size_t					i;
-	char					cchar;
-
-	i = 0;
-	cchar = c;
-	str = s;
-	while (i < n)
-	{
-		if (str[i] == cchar)
-		{
-			return ((void*)(str + i));
-		}
-		i++;
-	}
-	return (0);
-}
-
-size_t		ft_strl(const char *str)
-{
-	size_t i;
-
-	i = 0;
-	while (str[i] != 0)
-	{
-		i++;
-	}
-	return (i);
-}
-
 char	*ft_strchr(const char *s, int c)
 {
 	int		i;
@@ -57,5 +25,5 @@ char	*ft_strchr(const char *s, int c)
 		}
 		return ((char*)(s + i));
 	}
-	return (ft_memchr(s,c, ft_strl(s)));
+	return (ft_memchr(s,c, ft_strlen((char*)s)));
 }
