@@ -39,6 +39,7 @@ SRCS = ft_memset.c \
 	ft_lstlast.c \
 	ft_lstadd_back.c \
 	ft_lstiter.c \
+	ft_lstmap.c \
 
 CFLAGS = -Wall -Werror -Wextra
 
