@@ -34,6 +34,11 @@ SRCS = ft_memset.c \
 	ft_putendl_fd.c \
 	ft_putnbr_fd.c \
 	ft_split.c \
+	ft_lstadd_front.c \
+	ft_lstsize.c \
+	ft_lstlast.c \
+	ft_lstadd_back.c \
+	ft_lstiter.c \
 
 CFLAGS = -Wall -Werror -Wextra
 
